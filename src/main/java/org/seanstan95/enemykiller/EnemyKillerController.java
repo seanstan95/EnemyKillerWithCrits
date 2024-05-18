@@ -1,4 +1,4 @@
-package org.phoenixaki.enemykiller.enemykiller;
+package org.seanstan95.enemykiller;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;

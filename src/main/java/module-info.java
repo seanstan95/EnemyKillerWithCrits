@@ -3,6 +3,6 @@ module org.phoenixaki.enemykiller.enemykiller {
     requires javafx.fxml;
 
 
-    opens org.phoenixaki.enemykiller.enemykiller to javafx.fxml;
-    exports org.phoenixaki.enemykiller.enemykiller;
+    opens org.seanstan95.enemykiller to javafx.fxml;
+    exports org.seanstan95.enemykiller;
 }

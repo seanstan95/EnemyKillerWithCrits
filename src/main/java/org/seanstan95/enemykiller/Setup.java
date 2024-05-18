@@ -1,4 +1,4 @@
-package org.phoenixaki.enemykiller.enemykiller;
+package org.seanstan95.enemykiller;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -55,7 +55,7 @@ public class Setup {
             EnemyKillerController.critChance = Double.parseDouble(crit_chance_line);
             EnemyKillerController.requiredCrits = Integer.parseInt(required_crits_line);
         } catch(NumberFormatException nfe) {
-            loadAllDefault("Error: couldn't parse player damage, crit chance, or required crits, loading their defaults (2, 20%, and 3).");
+            System.out.println("Error: couldn't parse player damage, crit chance, or required crits, loading their defaults (2, 20%, and 3).");
             EnemyKillerController.playerDamage = defaultDamage;
             EnemyKillerController.critChance = defaultCrit;
             EnemyKillerController.requiredCrits = defaultRequiredCrits;

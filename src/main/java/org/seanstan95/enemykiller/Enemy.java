@@ -1,4 +1,4 @@
-package org.phoenixaki.enemykiller.enemykiller;
+package org.seanstan95.enemykiller;
 
 public class Enemy {
     private int originalHealth; //tracked to allow reset() to work
