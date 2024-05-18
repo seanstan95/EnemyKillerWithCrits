@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.phoenixaki.enemykiller.enemykiller.EnemyKillerController">
+   <Label layoutX="60.0" layoutY="14.0" text="Generic Enemy Killer Game™">
+      <font>
+         <Font size="30.0" />
+      </font>
+   </Label>
+   <Label layoutX="176.0" layoutY="75.0" text="Enemy Status" textFill="RED" underline="true">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Label>
+   <Label fx:id="enemyInfo" layoutX="178.0" layoutY="122.0">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Button fx:id="attackButton" disable="true" layoutX="50.0" layoutY="211.0" mnemonicParsing="false" onAction="#attack" text="ATTACK">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Button fx:id="walkButton" layoutX="178.0" layoutY="211.0" mnemonicParsing="false" onAction="#walk" text="WALK FORWARD">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Button layoutX="358.0" layoutY="211.0" mnemonicParsing="false" onAction="#doNothing" text="DO NOTHING">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Label fx:id="status1" layoutX="15.0" layoutY="270.0" textFill="#00bc00">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="status2" layoutX="94.0" layoutY="307.0" textFill="#00bc00">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Button fx:id="victoryButton" disable="true" layoutX="208.0" layoutY="353.0" mnemonicParsing="false" onAction="#victory" text="VICTORY">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Label fx:id="victory1" layoutX="20.0" layoutY="400.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="victory2" layoutX="20.0" layoutY="427.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="victory3" layoutX="20.0" layoutY="454.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Button layoutX="371.0" layoutY="484.0" mnemonicParsing="false" onAction="#initialize" text="RESTART" />
+   <Label fx:id="critLabel" layoutX="59.0" layoutY="183.0" textFill="RED">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+   <Button layoutX="443.0" layoutY="484.0" mnemonicParsing="false" onAction="#quit" text="QUIT" />
+</Pane>
