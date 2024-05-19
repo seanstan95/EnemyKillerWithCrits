@@ -2,4 +2,4 @@ player_damage=2
 crit_chance=0.2
 required_crits=5
 enemies=Orc:10-Goblin:20-Wizard:30
-do_nothing_lines=You did nothing, how exciting.-Are you just going to sit there all day?-You've offended my entire family lineage with your inaction.-I'd rather retake COMP152 than sit around waiting here.-Oh, you actually attacked! Wait, sorry...I got hopeful.
+do_nothing_lines=You did nothing, how exciting.-Are you just going to sit there all day?-You've offended my entire family lineage with your inaction.-I'd rather retake CS2 than sit around waiting here.-Oh, you actually attacked! Wait, sorry...I got hopeful.

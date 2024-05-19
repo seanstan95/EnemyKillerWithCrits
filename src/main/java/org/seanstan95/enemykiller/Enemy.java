@@ -7,8 +7,8 @@ public class Enemy {
 
     /**
      * Creates an enemy. A copy of the health value is stored for later reference.
-     * @param name
-     * @param health
+     * @param name String name for enemy
+     * @param health int health for enemy
      */
     public Enemy(String name, int health) {
         this.originalHealth = health;
@@ -27,7 +27,7 @@ public class Enemy {
     /**
      * Returns this enemy's name and health. Scene is set up to allow for a multiline string for enemy info.
      * If enemy is dead, the returned string states it.
-     * @return
+     * @return A string representation of this enemy's status
      */
     public String toString() {
         if(health > 0)

@@ -1,4 +1,4 @@
-module org.phoenixaki.enemykiller.enemykiller {
+module org.seanstan95.enemykiller.enemykiller {
     requires javafx.controls;
     requires javafx.fxml;
 
